@@ -15,8 +15,10 @@ const bookData = data.Travel?.map( (record) => {
     </>
   )
 })
+
+
 root.render(
-  bookData
+  <App/>
 );
 
 // If you want to start measuring performance in your app, pass a function
